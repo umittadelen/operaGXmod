@@ -1,7 +1,7 @@
 :root {
   --border-color-accent-1: 1px solid rgba(var(--accent-color-1),var(--border-brightness));
-  /* Common Backgrounds */
-  --opera-gx-bg-1: url('../wallpaper/dark.png')
+
+  --opera-gx-bg-1: url(https://raw.githubusercontent.com/umit-09/operaGXmod/main/Mod_Template/wallpaper/dark.png);
 }
 
 .theme-light,
