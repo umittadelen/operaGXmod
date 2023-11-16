@@ -105,6 +105,15 @@
                     "matches":
                     [
                         "https://*.opera.com/*"
+                    ],
+                    "css":
+                    [
+                        "webmodding/changecolors.css",
+                        "webmodding/main.theme.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
                     ]
                 }
             ],
