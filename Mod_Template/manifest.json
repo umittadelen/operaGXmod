@@ -17,11 +17,7 @@
         {
             "background_music":
             [
-                "music/track_1.mp3",
-                "music/track_2.mp3",
-                "music/track_3.mp3",
-                "music/track_4.mp3",
-                "music/track_5.mp3"
+                "music/combined_track.mp3"
             ],
             "browser_sounds":
             {
@@ -179,5 +175,5 @@
         },
         "schema_version": 1
     },
-    "version": "1.1.1"
+    "version": "1.2.5"
 }
