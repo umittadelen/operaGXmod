@@ -167,18 +167,18 @@
                 "dark":
                 {   
                     "image": "wallpaper/dark.png",
-                    "text_color": "#FFFFFF",
-                    "text_shadow": "#757575"
+                    "text_color": "#0A4906",
+                    "text_shadow": "#000000"
                 },
                 "light":
                 {
                     "image": "wallpaper/light.png",
-                    "text_color": "#FFFFFF",
-                    "text_shadow": "#0B000E"
+                    "text_color": "#000000",
+                    "text_shadow": "#FFFFFF"
                 }
             }
         },
         "schema_version": 1
     },
-    "version": "1.4.5"
+    "version": "1.4.6"
 }
