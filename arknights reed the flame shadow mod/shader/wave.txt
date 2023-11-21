@@ -1,0 +1,25 @@
+uniform shader iChunk;
+uniform float2 iChunkSize;
+uniform float iFrame;
+
+// Have fun with those values
+const float LENGTH = 120.0;
+const float STRENGTH = 0.02;
+const float PIXEL_SIZE = 350.0;
+
+vec4 main(vec2 xy) 
+{
+    vec2 uv = xy / iChunkSize.xy;
+
+    // Add a waving effect to both x and y coordinates
+    uv.x += sin(xy.y / LENGTH + iFrame) * STRENGTH;
+    uv.y += sin(xy.x / LENGTH + iFrame) * STRENGTH;
+
+    // Apply pixelation effect
+    uv = floor(uv * PIXEL_SIZE) / PIXEL_SIZE;
+
+    // Blend the animated coordinates with the original texture
+    vec4 originalTexture = iChunk.eval(uv * iChunkSize.xy);
+    
+    return originalTexture;
+}
