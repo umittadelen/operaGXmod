@@ -17,7 +17,7 @@
         {
             "background_music":
             [
-                "music/combined_track.mp3"
+                "music/track1.mp3"
             ],
             "browser_sounds":
             {
@@ -135,14 +135,14 @@
                 {
                     "gx_accent":
                     {
-                        "h": 315,
-                        "s": 57,
-                        "l": 67
+                        "h": 55,
+                        "s": 86,
+                        "l": 50
                     },
                     "gx_secondary_base":
                     {
-                        "h": 258,
-                        "s": 34,
+                        "h": 51,
+                        "s": 74,
                         "l": 16
                     }
                 },
@@ -150,14 +150,14 @@
                 {
                     "gx_accent":
                     {
-                        "h": 296,
-                        "s": 72,
-                        "l": 67
+                        "h": 55,
+                        "s": 85,
+                        "l": 50
                     },
                     "gx_secondary_base":
                     {
-                        "h": 324,
-                        "s": 34,
+                        "h": 51,
+                        "s": 73,
                         "l": 16
                     }
                 }
@@ -167,7 +167,7 @@
                 "dark":
                 {   
                     "image": "wallpaper/dark.png",
-                    "text_color": "#0A4906",
+                    "text_color": "#473E0B",
                     "text_shadow": "#000000"
                 },
                 "light":
