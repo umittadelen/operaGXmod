@@ -1,0 +1,210 @@
+{
+    "name": "better minecraft mod",
+    "description": "better minecraft mod",
+    "developer":
+    {
+        "name": "umittadelen"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/track1.mp3"
+            ],
+            "browser_sounds":
+            {
+                "CLICK":
+                [
+                    "sound/click.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sound/feature_switch_off.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sound/feature_switch_on.mp3"
+                ],
+                "HOVER":
+                [
+                    "sound/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/hover.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sound/important_click.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/challenge_complete.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/break/break1.mp3",
+                    "sound/break/break2.mp3",
+                    "sound/break/break3.mp3",
+                    "sound/break/break4.mp3"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/place/place1.mp3",
+                    "sound/place/place2.mp3",
+                    "sound/place/place3.mp3",
+                    "sound/place/place4.mp3"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/switch.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/close/close1.mp3",
+                    "sound/close/close2.mp3",
+                    "sound/close/close3.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/open/open1.mp3",
+                    "sound/open/open2.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound/tab_slash.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/grass1.wav",
+                    "keyboard/grass2.wav",
+                    "keyboard/grass3.wav",
+                    "keyboard/grass4.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/explode1.wav",
+                    "keyboard/explode2.wav",
+                    "keyboard/explode3.wav",
+                    "keyboard/explode4.wav"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/grass1.wav",
+                    "keyboard/grass2.wav",
+                    "keyboard/grass3.wav",
+                    "keyboard/grass4.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/grass1.wav",
+                    "keyboard/grass2.wav",
+                    "keyboard/grass3.wav",
+                    "keyboard/grass4.wav"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "webmodding/opera.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.opera.com/*"
+                    ],
+                    "css":
+                    [
+                        "webmodding/changecolors.css",
+                        "webmodding/main.theme.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "1-bit pixels":
+                {
+                    "path": "shader/1-bit.txt"
+                },
+                "2-bit pixels":
+                {
+                    "path": "shader/2-bit.txt"
+                },
+                "4-bit pixels":
+                {
+                    "path": "shader/4-bit.txt"
+                },
+                "8-bit pixels":
+                {
+                    "path": "shader/8-bit.txt"
+                }
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 120,
+                        "s": 100,
+                        "l": 35
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 17,
+                        "s": 48,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 120,
+                        "s": 45,
+                        "l": 43
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 360,
+                        "s": 28,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/dark.png",
+                    "text_color": "#473E0B",
+                    "text_shadow": "#000000"
+                },
+                "light":
+                {
+                    "image": "wallpaper/light.png",
+                    "text_color": "#000000",
+                    "text_shadow": "#FFFFFF"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.5"
+}

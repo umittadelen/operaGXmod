@@ -1,0 +1,20 @@
+uniform shader iChunk;
+uniform float2 iChunkSize;
+
+
+const float pixelSize = 5; 
+const float colorDepth = 0.5;
+
+half4 main(float2 xy)  {
+    half2 uv = xy;
+    uv.y -= mod(uv.y, pixelSize);
+    uv.x -= mod(uv.x, pixelSize);
+    
+    half4 color = iChunk.eval(uv);
+
+    color.x -= mod(color.x, colorDepth);
+    color.y -= mod(color.y, colorDepth);
+    color.z -= mod(color.z, colorDepth);
+
+    return color;
+}
