@@ -3,7 +3,7 @@ uniform float2 iChunkSize;
 
 
 const float pixelSize = 5; 
-const float colorDepth = 0.00392157;
+const float colorDepth = 0.00000001;
 
 half4 main(float2 xy)  {
     half2 uv = xy;
