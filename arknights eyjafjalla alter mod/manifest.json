@@ -1,6 +1,6 @@
 {
-    "name": "arknights eyjafjalla alter mod",
-    "description": "eyjafjalla alter mod",
+    "name": "arknights eyjafjalla mod V2",
+    "description": "eyjafjalla mod V2",
     "developer":
     {
         "name": "umittadelen"
@@ -105,7 +105,9 @@
                     "matches":
                     [
                         "https://*.opera.com/*"
-                    ],
+                    ]
+                },
+                {
                     "css":
                     [
                         "webmodding/changecolors.css",
@@ -165,20 +167,22 @@
             "wallpaper":
             {
                 "dark":
-                {   
-                    "image": "wallpaper/dark.png",
-                    "text_color": "#0A4906",
-                    "text_shadow": "#000000"
+                {
+                    "image": "wallpaper/video.mp4",
+                    "first_frame": "wallpaper/first_frame.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
                 },
                 "light":
                 {
-                    "image": "wallpaper/light.png",
-                    "text_color": "#000000",
-                    "text_shadow": "#FFFFFF"
+                    "image": "wallpaper/video.mp4",
+                    "first_frame": "wallpaper/first_frame.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
                 }
             }
         },
         "schema_version": 1
     },
-    "version": "1.5"
+    "version": "1.5.1"
 }
