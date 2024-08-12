@@ -144,7 +144,7 @@
                     ],
                     "matches":
                     [
-                        "https://umittadelen.github.io/PMC/download/*"
+                        "https://umittadelen.github.io/PMC/download*"
                     ]
                 }
             ],
@@ -218,5 +218,5 @@
         },
         "schema_version": 1
     },
-    "version": "1.6.0"
+    "version": "1.6.2"
 }
