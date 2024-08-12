@@ -124,7 +124,9 @@
                     "matches":
                     [
                         "https://*.opera.com/*"
-                    ],
+                    ]
+                },
+                {
                     "css":
                     [
                         "webmodding/changecolors.css",
@@ -133,6 +135,16 @@
                     "matches":
                     [
                         "https://*.discord.com/*"
+                    ]
+                },
+                {
+                    "css":
+                    [
+                        "webmodding/github.pmc.css"
+                    ],
+                    "matches":
+                    [
+                        "https://umittadelen.github.io/PMC/download/*"
                     ]
                 }
             ],
@@ -206,5 +218,5 @@
         },
         "schema_version": 1
     },
-    "version": "1.5.1"
+    "version": "1.6.0"
 }
